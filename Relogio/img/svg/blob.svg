@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="clipBlob">
+                <path fill="#F2F4F8"
+                    d="M25.3,-34.8C33.7,-28.8,42,-22.5,51,-12.4C60,-2.3,69.8,11.8,69,24.9C68.2,38.1,56.8,50.4,43.6,59.6C30.3,68.8,15.2,75,-2,77.8C-19.2,80.6,-38.5,80,-46.7,69.2C-54.9,58.3,-52.1,37.2,-54.4,20.1C-56.7,3,-64,-10.1,-62.1,-21.5C-60.2,-32.9,-49.1,-42.6,-37.2,-47.4C-25.3,-52.3,-12.7,-52.3,-2.1,-49.4C8.5,-46.5,16.9,-40.8,25.3,-34.8Z"
+                    transform="translate(100 100)" />
+            </clipPath>
+        </defs>
+        <image href="../relogios/empresario-olhando-para-seu-relogio-closeup.jpg" y="45" width="100%" height="100%"
+            clip-path="url(#clipBlob)" preserveAspectRatio="xMidYMid slice" />
+</svg>
