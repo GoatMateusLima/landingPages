@@ -67,3 +67,40 @@
     right: 10px;
     padding: 10px 15px 12px 15px;
 }
+
+@keyframes toActive {
+    from {
+        top: 100%;
+        opacity: 0;
+        
+    }
+    to {
+        top: 0%;
+        opacity: 1;
+        
+    }
+}
+
+@keyframes toActiveFruta{
+    from{
+        left: 100%;
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        left: 40%;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.item.active img.fruta {
+    animation: toActive 0.5s ease-in-out 1;
+}
+
+.item.active .title {
+    animation: toActive 0.5s ease-in-out 1;
+}
+
+.item.active img.refri {
+    animation: toActiveFruta 0.5s ease-in-out 1;
+}
