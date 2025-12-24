@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEBIBUM</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <svg class="decor-line" viewBox="0 0 1000 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="
+                M 0 150
+                C 250 50, 350 250, 500 150
+                C 650 50, 750 250, 1000 150
+                " fill="none" 
+                stroke="rgba(255,255,255,0.9)" 
+                stroke-width="7" />
+        </svg>
+         <svg class="decor-line-2" viewBox="0 0 1000 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="
+                M 0 150
+                C 250 50, 350 250, 500 150
+                C 650 50, 750 250, 1000 150
+                " fill="none" 
+                stroke="rgba(255,255,255,0.9)" 
+                stroke-width="7" />
+        </svg>
+    <header>
+        <h1>BEBIBUM</h1>
+    </header>
+    
     <main>
-        <section class="item active" style="--background:#e43d41;">
-            <h2 class="title">morango</h2>
-            <img src="./Projeto/Morango-refrigerante-foregroundBlur.png" alt="" class="fruta">
-            <img src="./Projeto/Morango-refrigerante.png" alt="" class="refri">
+
+        <section class="container-itens">
+
+
+            <section class="item active" style="--background:#e43d41;">
+                <h2 class="title">morango</h2>
+                <img src="./Projeto/Morango-refrigerante-foregroundBlur.png" alt="" class="fruta">
+                <img src="./Projeto/Morango-refrigerante.png" alt="" class="refri">
+            </section>
+            <section class="item" style="--background:#41e43d;">
+                <h2 class="title">abacate</h2>
+                <img src="./Projeto/Abacate-refrigerante-foregroundBlur.png" alt="" class="fruta">
+                <img src="./Projeto/Abacate-refrigerante.png" alt="" class="refri">
+            </section>
+            <section class="item" style="--background:#e49a3d;">
+                <h2 class="title">laranja</h2>
+                <img src="./Projeto/Laranja-refrigerante-foregroundBlur.png" alt="" class="fruta">
+                <img src="./Projeto/Laranja-refrigerante.png" alt="" class="refri">
+            </section>
+            <div>
+                <button id="prev">
+                    < </button>
+                        <button id="next"> > </button>
+            </div>
         </section>
-        <section class="item" style="--background:#41e43d;">
-            <h2 class="title">abacate</h2>
-            <img src="./Projeto/Abacate-refrigerante-foregroundBlur.png" alt="" class="fruta">
-            <img src="./Projeto/Abacate-refrigerante.png" alt="" class="refri" >
+        <section class="h2">
+            <h2>Somente aqui voce pode encontrar o melhor refri de frutas, nossa equipe está sempre buscando novas
+                combinações para oferecer o melhor sabor!</h2>
         </section>
-        <section class="item" style="--background:#e49a3d;">
-            <h2 class="title">laranja</h2>
-            <img src="./Projeto/Laranja-refrigerante-foregroundBlur.png" alt="" class="fruta">
-            <img src="./Projeto/Laranja-refrigerante.png" alt="" class="refri">
+        <section class="container-info">
+            <div>
+                <img src="https://classic.exame.com/wp-content/uploads/2021/11/fabrica-ball-latas.jpg?ims=750x/filters:quality(85):format(webp)"
+                    alt="">
+                <h3> ola</h3>
+            </div>
         </section>
-        <div >
-            <button id="prev"> < </button>
-            <button id="next"> > </button>
-        </div>
     </main>
     <script src="./scripst.js"></script>
 </body>
+
 </html>
