@@ -33,13 +33,14 @@ header{
 .decor-line {
   position: fixed;
   top: 0;
-  left: 0;
+
+  left: 50;
   width: 150%; 
   
   pointer-events: none;
   z-index: 0;
   transform-origin: top left;
-  transform: rotate(35deg) translateY(-50%);
+  transform: rotate(90deg);
 }
 
 .decor-line-2 {
@@ -73,22 +74,9 @@ main{
     text-align: center;
     flex: 1;
 }
-.container-info{
-    width: 100%;
-    height: 300px;
-    background-color: white;
-    border-radius: 20px;
-    display: flex;
-    color: black;
 
-}
 
-.container-info img{
-    width: 400px;
-    border-radius: 20px;
-    position: absolute;
-    left: 70px;
-}
+
 .container-itens {
     border-radius: 30px;
     width: 50%;
@@ -105,7 +93,7 @@ main{
     top: 0%;
     left: 0%;
     overflow: hidden;
-    background-color: var(--background);
+    background:linear-gradient( rgba(0, 0, 0, 0) ,var(--background), rgba(0, 0, 0, 0));
 }
 
 .item.active {
@@ -121,17 +109,10 @@ h1{
     margin: 0;
     padding: 0;
 }
-.h2{
-    padding: 7px;
-    border-radius: 30px;
-    background-color: whitesmoke;
-    color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ;
-    
-}
+
 
 .item .title{
-    font-size: 12rem;
+    font-size: 40px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -213,13 +194,17 @@ h1{
     }
 }
 .item.active img.fruta {
-    animation: toActive 0.5s ease-in-out 1;
+    animation: toActive 0.9s ease-in-out 1;
 }
 
 .item.active .title {
-    animation: toActive 0.5s ease-in-out 1;
+    animation: toActive 0.9s ease-in-out 1;
 }
 
 .item.active img.refri {
-    animation: toActiveFruta 0.5s ease-in-out 1;
+    animation: toActiveFruta 0.9s ease-in-out 1;
+}
+
+.blur-info{
+    background-color: aqua;
 }
